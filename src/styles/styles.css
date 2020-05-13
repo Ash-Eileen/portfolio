@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(45deg, #d8b6c7, #fcfff7 50%, #6fe2e2) fixed;
+}
+
+/*# sourceMappingURL=styles.css.map */
