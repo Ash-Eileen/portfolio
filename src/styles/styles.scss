@@ -5,17 +5,23 @@
 @import "partials/header";
 @import "partials/index";
 @import "partials/portfolio";
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;;
 }
 
 body {
   color:	#1F1F1F	;
   background: radial-gradient(circle, rgba(236,183,169,1) 30%, rgba(222,176,206,1) 100%) fixed;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .tablet-home {
