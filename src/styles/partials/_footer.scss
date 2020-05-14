@@ -1,1 +1,10 @@
 // Setting up for footer scss
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+}

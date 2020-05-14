@@ -1,1 +1,30 @@
 // Setting up for index scss
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.social-logos {
+    padding: 5%;
+    font-size: 2.5rem;
+    color: #481E38;
+}

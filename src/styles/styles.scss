@@ -1,3 +1,12 @@
+@import "partials/about";
+@import "partials/blog";
+@import "partials/contact";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/index";
+@import "partials/portfolio";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +14,66 @@
 }
 
 body {
-  background: linear-gradient(45deg, rgba(216,182,199,1), rgba(252,255,247,1) 50%, rgba(111,226,226,1)) fixed; 
+  color:	#1F1F1F	;
+  background: radial-gradient(circle, rgba(236,183,169,1) 30%, rgba(222,176,206,1) 100%) fixed;
+}
+
+.tablet-home {
+  display: none;
+}
+
+.desktop-home {
+  display: none;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  .tablet-home {
+    display: inline;
+  }
+
+  .mobile-home {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .desktop-home {
+    display: inline;
+  }
+
+  .mobile-home {
+    display: none;
+  }
 }
