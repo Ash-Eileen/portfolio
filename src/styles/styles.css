@@ -6,44 +6,59 @@ footer {
   text-align: center;
   width: 100%;
   font-size: 1.2rem; }
-
-#toggle {
-  display: none; }
-
-.nav-name {
-  display: none; }
+  footer .social-icons {
+    font-size: 3rem;
+    padding: 1%; }
+    footer .social-icons i {
+      padding: 1%;
+      color: #481E38; }
 
 @media only screen and (max-width: 768px) {
-  nav {
-    width: 100%;
+  #nav {
     text-align: right;
-    height: 50px;
-    line-height: 60px;
-    position: fixed;
-    width: 100%;
-    z-index: 1; }
-
-  label {
-    z-index: 2;
-    position: relative;
-    font-size: 2em; } }
+    z-index: 1;
+    width: 100;
+    background: radial-gradient(circle, #ecb7a9 30%, #deb0ce 100%) fixed;
+    top: 0; }
+    #nav .menu, #nav #hamburger {
+      display: none; }
+    #nav label {
+      font-size: 3rem;
+      padding: 1%; }
+    #nav .menu a {
+      display: block;
+      width: 100%;
+      padding: 1%;
+      text-align: center;
+      border-top: 1px solid black;
+      line-height: 3.5rem;
+      font-size: 2rem; }
+    #nav li {
+      list-style: none; }
+    #nav .menu {
+      display: none;
+      border-bottom: 1px solid black; }
+    #nav input:checked ~ .menu {
+      display: block; } }
 @media only screen and (min-width: 769px) {
   /* For desktop: */
   nav {
     display: flex;
     justify-content: center;
-    align-items: space-evenly;
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: hidden; }
-    nav ul {
-      padding-top: 2%;
+    overflow: hidden;
+    text-align: center; }
+    nav #hamburger, nav label {
+      display: none; }
+    nav .menu {
+      padding-top: 1%;
       display: flex;
       justify-content: space-around;
-      width: 100%; }
-      nav ul li {
-        display: inline; }
+      width: 100vw; }
+      nav .menu a {
+        width: 20%; }
     nav .menu-icon {
       display: none; } }
 body {
@@ -67,7 +82,7 @@ h1 {
   width: 80%; }
 
 .social-logos {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #481E38; }
 
 * {
@@ -83,6 +98,9 @@ body {
 a {
   text-decoration: none;
   color: inherit; }
+
+section {
+  z-index: -1; }
 
 .tablet-home {
   display: none; }
@@ -136,7 +154,7 @@ a {
 
   .mobile-home {
     display: none; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* For desktop: */
   .col-1 {
     width: 8.33%; }
@@ -173,6 +191,12 @@ a {
 
   .col-12 {
     width: 100%; }
+
+  body {
+    font-size: 25px; }
+
+  h1 {
+    font-size: 5rem; }
 
   .desktop-home {
     display: inline; }

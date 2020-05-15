@@ -24,6 +24,10 @@ a {
   color: inherit;
 }
 
+section  {
+  z-index: -1;
+}
+
 .tablet-home {
   display: none;
 }
@@ -60,7 +64,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -74,6 +78,14 @@ a {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  body {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
 
   .desktop-home {
     display: inline;

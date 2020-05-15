@@ -1,50 +1,62 @@
 // Setting up for header scss
 
-#toggle {
-    display: none;
-}
-
-.nav-name {
-    display: none;
-}
-
 @media only screen and (max-width: 768px) {
-    
-    nav {
-        width: 100%;
-        text-align: right;
-        height: 50px;
-        line-height: 60px;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
+#nav {
+    text-align: right;
+    z-index: 1;
+    width: 100;
+    background: radial-gradient(circle, rgba(236,183,169,1) 30%, rgba(222,176,206,1) 100%) fixed;
+    top: 0;
+    .menu, #hamburger {
+        display: none;
     }
-    
     label {
-        z-index: 2;
-        position: relative;
-        font-size: 2em;
+        font-size: 3rem;
+        padding: 1%;
     }
+    .menu a {
+            display: block;
+            width: 100%;
+            padding: 1%;
+            text-align: center;
+            border-top: 1px solid black;
+            line-height: 3.5rem;
+            font-size: 2rem;
+        }        
+    li {
+        list-style: none;
+    }
+    .menu {
+        display: none;
+        border-bottom: 1px solid black;
+    }
+    input:checked ~ .menu {
+        display: block;
+    }
+    } 
 }
 
 
 @media only screen and (min-width: 769px) {
     /* For desktop: */
     nav {
+        #hamburger, label {
+            display: none;
+        }
         display: flex;
         justify-content: center;
-        align-items: space-evenly;
         position: fixed;
         top: 0;
         width: 100%;
         overflow: hidden;
-        ul {
-            padding-top: 2%;
+        text-align: center;
+        .menu {
+            padding-top: 1%;
             display: flex;
             justify-content: space-around;
-            width: 100%;
-            li {
-                display: inline;
+            width: 100vw;
+            a {
+                width: 20%;
             }
         }
         .menu-icon {
