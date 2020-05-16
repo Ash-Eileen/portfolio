@@ -6,19 +6,37 @@ body {
     height: 100vh;
 }
 
-
 .tablet-home, .desktop-home, .menu, #hamburger {
   display: none;
 }
 
 section h1 {
   font-size: 4rem;   
-   font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
 
 }
 .social-logos {
-    font-size: 3rem;
-    color: #481E38;
+  font-size: 3rem;
+   color: #481E38;
 }
 
 
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* For tablets: */
+  .mobile-home {
+    display: none;
+  }
+  .tablet-home {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */ 
+  .mobile-home {
+    display: none;
+  }
+  .desktop-home {
+    display: block;
+  }
+}

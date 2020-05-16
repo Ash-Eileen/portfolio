@@ -1,4 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap");
+#history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skills #skill-icons {
+  font-size: 5rem;
+  width: 75%;
+}
+
 footer {
   grid-column: span 12;
   min-height: 20vh;
@@ -90,6 +121,26 @@ section h1 {
   color: #481E38;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* For tablets: */
+  .mobile-home {
+    display: none;
+  }
+  .tablet-home {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .mobile-home {
+    display: none;
+  }
+  .desktop-home {
+    display: block;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -132,5 +183,35 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+section {
+  padding: 5%;
+}
+
+section img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 5%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+section h2 {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+}
+
+section h1 {
+  font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,1 +1,17 @@
 // Setting up for about scss
+
+#history {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  #skill-icons {
+    font-size: 5rem;
+    width: 75%;
+  }
+}
