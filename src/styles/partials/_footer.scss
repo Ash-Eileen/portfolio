@@ -1,18 +1,18 @@
 // Setting up for footer scss
 
 footer {
-    position: fixed;
-    bottom: 0;
-    padding: 2%;
-    text-align: center;
-    width: 100%;
-    font-size: 1.2rem;
-    .social-icons {
-        font-size: 3rem;
-        padding: 1%;
-        i {
-            padding: 1%;
-            color: #481E38;
-        }
-    }
+  grid-column: span 12;
+  min-height: 20vh;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.social-icons {
+  font-size: 3rem;
+  padding: 1%;
+  color: #481E38;
+}
+

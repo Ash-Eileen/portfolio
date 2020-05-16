@@ -1,71 +1,38 @@
 // Setting up for header scss
 
-@media only screen and (max-width: 768px) {
-#nav {
-    text-align: right;
-    z-index: 1;
-    width: 100%;
-    background: radial-gradient(circle, rgba(236,183,169,1) 30%, rgba(222,176,206,1) 100%) fixed;
-    top: 0;
-  right:0;
-    position: fixed;
-    .fas {
-      color: #481E38;
-    }
-    .menu, #hamburger {
-        display: none;
-    }
-    label {
-        font-size: 3rem;
-        padding: 1%;
-    }
-    .menu a {
-            display: block;
-            padding: 1%;
-            text-align: center;
-            border-top: 6px groove #481E38;
-            line-height: 3.5rem;
-            font-size: 2rem;
-        }        
-    li {
-        list-style: none;
-    }
-    .menu {
-      background: rgba(236,183,169,1) ;
-        display: none;
-        border: 6px groove #481E38;
-        border-top: none;
-    }
-    input:checked + .menu {
-        display: block;
-    }
-}
+header {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #481E38;
+} 
+
+nav {
+  text-align: right;
+  z-index: 1;
+  width: 100%;
+} 
+
+.menu-icon {
+  font-size: 3rem;
+  padding: 1%;
 }
 
-@media only screen and (min-width: 769px) {
-    /* For desktop: */
-    nav {
-        #hamburger, label {
-            display: none;
-        }
-        display: flex;
-        justify-content: center;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        overflow: hidden;
-        text-align: center;
-        .menu {
-            padding-top: 1%;
-            display: flex;
-            justify-content: space-around;
-            width: 100vw;
-            a {
-                width: 20%;
-            }
-        }
-        .menu-icon {
-            display: none;
-        }
-    }
+
+.menu a {
+  display: block;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  border: 2px solid #481E38;
+  background: rgba(236,183,169,1) ;
+  text-align: center;
+}
+
+input:checked + .menu {
+  display: block;
+}
+
+#hamburger {
+  display: none;
 }

@@ -6,24 +6,19 @@ body {
     height: 100vh;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: fixed;
-    top: 28%;
-    width: 100%;
-    align-items: center;
-    color: #481E38;
+
+.tablet-home, .desktop-home, .menu, #hamburger {
+  display: none;
 }
 
-h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 3.5rem;
-    width: 80%;
-}
+section h1 {
+  font-size: 4rem;   
+   font-family: 'Indie Flower', cursive;
 
+}
 .social-logos {
     font-size: 3rem;
     color: #481E38;
 }
+
+
