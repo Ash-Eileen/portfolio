@@ -150,7 +150,7 @@ input:checked + .menu {
   }
   .menu a:hover {
     background: pink;
-    border: 3px groove grey;
+    border: 2px groove grey;
   }
 }
 
