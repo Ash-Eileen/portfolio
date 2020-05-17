@@ -71,12 +71,9 @@ header {
 
 nav {
   text-align: right;
-  z-index: 1;
   width: 100%;
-}
-
-.menu, #hamburger {
-  display: none;
+  line-height: 4rem;
+  font-size: 2.5rem;
 }
 
 .menu-icon {
@@ -88,12 +85,23 @@ nav {
 .menu {
   border: 2px solid #30546E;
   border-top: none;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
+          transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: white;
+}
+
+#hamburger {
+  display: none;
 }
 
 .menu a {
   display: block;
-  font-size: 2.5rem;
-  line-height: 4rem;
   border-top: 2px solid #30546E;
   text-align: center;
 }
@@ -103,7 +111,17 @@ nav {
 }
 
 input:checked + .menu {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-height: 1000px;
+  -webkit-transform: perspective(4rem) rotate3d(0, 0, 0, 0);
+          transform: perspective(4rem) rotate3d(0, 0, 0, 0);
 }
 
 @media only screen and (min-width: 768px) {
@@ -115,16 +133,24 @@ input:checked + .menu {
     width: 100%;
   }
   .menu {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    max-height: 100%;
     border: none;
+    -webkit-transform: none;
+            transform: none;
+    background: #f7f7f7;
   }
   .menu a {
+    width: 100%;
     border: none;
     font-size: 1.5rem;
+  }
+  .menu a:hover {
+    background: pink;
+    border: 3px groove grey;
   }
 }
 
