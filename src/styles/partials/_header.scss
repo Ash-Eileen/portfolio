@@ -5,7 +5,18 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: #481E38;
+  // color: #AE0A3B;
+  // color: #A12B50;
+  // color: #BDE5C1;
+  // background: #9D2A4E;
+  // color: #481E38;
+  // color: #FFFFFF;
+  // background: #B40817;
+  // background: grey;
+  // color: #8DB3E2;
+  // color: #405949;
+  // background: #454545;
+  background: #f7f7f7;
 } 
 
 nav {
@@ -14,25 +25,62 @@ nav {
   width: 100%;
 } 
 
+.menu, #hamburger {
+  display: none;
+}
+
 .menu-icon {
   font-size: 3rem;
   padding: 1%;
+  padding-right: 3%;
 }
 
+.menu {
+  // border: 4px solid #DB9CB8;
+  // border: 4px solid #F2D4E2;
+  border: 2px solid #30546E;
 
+  border-top: none;
+}
 .menu a {
+  // background: #A50925;
+
   display: block;
   font-size: 2.5rem;
   line-height: 4rem;
-  border: 2px solid #481E38;
-  background: rgba(236,183,169,1) ;
+  // border-top: 4px solid #DB9CB8;
+  // border-top: 4px solid #F2D4E2;
+  border-top: 2px solid #30546E;
+
+  // background: rgba(236,183,169,1) ;
   text-align: center;
+}
+
+.menu i {
+  // color: #DB9CB8;
+  // color: #F2D4E2;
+  color: #30546E;
 }
 
 input:checked + .menu {
   display: block;
 }
 
-#hamburger {
-  display: none;
+@media only screen and (min-width: 768px) {
+  /* For desktop: */ 
+  .menu-icon {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    a {
+      border: none;
+      font-size: 1.5rem;
+    }
+  }
 }

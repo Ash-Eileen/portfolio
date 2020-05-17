@@ -6,22 +6,39 @@ body {
     height: 100vh;
 }
 
-.tablet-home, .desktop-home, .menu, #hamburger {
+section {
+  width: 75%;
+  height: 80%;
+  // background: #454545;
+  background: #f7f7f7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.tablet-home, .desktop-home {
   display: none;
 }
 
 section h1 {
   font-size: 4rem;   
   font-family: 'Indie Flower', cursive;
+  // color: #CFDDF2;
+  // color: #405949;
+
 
 }
 .social-logos {
   font-size: 3rem;
-   color: #481E38;
+  //  color: #481E38;
+  // color: #8DB3E2;
+  color: #30546E;
+  padding: 2%;
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   /* For tablets: */
   .mobile-home {
     display: none;
@@ -31,7 +48,7 @@ section h1 {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1025px) {
   /* For desktop: */ 
   .mobile-home {
     display: none;
