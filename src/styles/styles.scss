@@ -6,15 +6,25 @@
 @import "partials/index";
 @import "partials/portfolio";
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather Sans', sans-serif;;
+  // font-family: 'Merriweather Sans', sans-serif;;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+html {
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
+
   // color:	#1F1F1F	;
   // color: #F2F2F2;
   // background: #07418c;
@@ -32,7 +42,9 @@ body {
   // color: #F2D4E2;
   // color: #FFF0F5; 
   // color: #8A0039;
+
   color: #1F1F1F;
+  background: linear-gradient(135deg, rgba(255,0,0,0.1),rgba(0,255,0,.1),rgba(0,0,255,0.1)) fixed;
   // background: linear-gradient(110deg, #07418c,#07418c 50%, #A50925 50%, #A50925 100%) fixed;
   // background: radial-gradient(circle, rgba(236,183,169,1) 30%, rgba(222,176,206,1) 100%) fixed;
 }
@@ -82,4 +94,7 @@ section {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */ 
+  *{font-size: 1.5rem;}
+  .social-icons i {font-size: 3rem;}
+  .social-logos i {font-size: 3.0rem;}
 }

@@ -4,13 +4,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+
 }
 
 section {
-  width: 75%;
+  min-width: 35%;
   height: 80%;
   // background: #454545;
-  background: #f7f7f7;
+  // background: #f7f7f7;
+  // background: #F2F2F2;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -23,7 +25,9 @@ section {
 
 section h1 {
   font-size: 4rem;   
-  font-family: 'Indie Flower', cursive;
+  // font-family: 'Indie Flower', cursive;
+  font-family: 'PT Mono', monospace;
+     line-height: 4rem;
   // color: #CFDDF2;
   // color: #405949;
 
@@ -36,6 +40,24 @@ section h1 {
   // color: #30546E;
   color: #8A0039;
   padding: 2%;
+  i { 
+  &:hover {
+    color: hotpink;
+    // transform: scale(1.5);
+    animation: shake 0.5s;
+
+  }
+  @keyframes shake {
+    10% { transform: translate(0px, -5px) rotate(-5deg); }
+    15% { transform: translate(0px, 0px) rotate(0deg); }
+    30% { transform: translate(5px, -5px) rotate(5deg); }
+    45% { transform: translate(0px, 0px) rotate(0deg); }
+    60% { transform: translate(0px, -5px) rotate(-5deg); }
+    75% { transform: translate(0px, 0px) rotate(0deg); }
+    90% { transform: translate(5px, -5px) rotate(5deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+  }
+}
 }
 
 
@@ -47,6 +69,7 @@ section h1 {
   .tablet-home {
     display: block;
   }
+  
 }
 
 @media only screen and (min-width: 1025px) {
