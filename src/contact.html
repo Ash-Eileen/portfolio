@@ -14,31 +14,36 @@
         <div class="menu-icon"><label for="hamburger"><i class="fas fa-bars"></i></label></div>
         <input type="checkbox" id="hamburger">
         <div class="menu">
-          <a href="index.html"><i class="fas fa-home"></i> Home</a>  
-          <a href="about.html"><i class="fas fa-user"></i> About</a>
-          <a href="portfolio.html"><i class="fas fa-box-open"></i> Portfolio</a>
-          <a href="blog.html"><i class="fas fa-book-open"></i> Blog</a>
-          <a href="#"><i class="fas fa-comment-alt"></i> Contact Me</a>
+          <a href="index.html"><i class="fas fa-home"></i>Home</a>  
+          <a href="about.html"><i class="fas fa-user"></i>About</a>
+          <a href="portfolio.html"><i class="fas fa-box-open"></i>Portfolio</a>
+          <a href="blog.html"><i class="fas fa-book-open"></i>Blog</a>
+          <a href="#"><i class="fas fa-comment-alt"></i>Contact Me</a>
         </div>
       </nav>
     </header>
-    <main>
+    <main id="contact">
+      <section>
       <h1 class="title">Contact Me</h1>
-      <form action="">
+      <div class="thanks">
         <p>Thanks for visting.</p>
         <p>Feel free to reach out on my socials or fill in the below form!</p>
-        <div class="socials-contact">
+      </div>
+      <form action="">
+        <div class="social-icons">
           <i class="fab fa-twitter-square"></i>
           <i class="fab fa-linkedin"></i>
         </div>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Please enter your name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Please enter your email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Please enter your message..."></textarea>
-        <input id="submit" type="submit" value="Submit">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="write" placeholder="Please enter your name" required>        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Please enter your email" required>
+        <div class="message">
+          <label for="message">Message:</label>
+          <textarea type="text" name="message" placeholder="Please enter your message..."></textarea>
+          <input id="submit" type="submit" value="Submit">
+        </div>
       </form>
+    </section>
     </main>
     <footer>
       <div class="social-icons">

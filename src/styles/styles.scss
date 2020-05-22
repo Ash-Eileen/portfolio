@@ -7,6 +7,7 @@
 @import "partials/portfolio";
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,16 +16,12 @@
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-html {
-}
-
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 
 }
 
 body {
-
   // color:	#1F1F1F	;
   // color: #F2F2F2;
   // background: #07418c;
@@ -59,10 +56,11 @@ a {
   height: 100vh;
   display: grid;    
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 7fr 2fr;
+  grid-template-rows: min-content	 7fr min-content;
 }
 
 main {
+  z-index: 1;
   grid-column: span 12;
   display: flex;
   flex-direction: column;
@@ -76,7 +74,7 @@ section {
   img {
     align-self: center;
     padding-bottom: 5%;
-    width: 50%;
+    max-width: 50%;
     border-radius: 50%;
   }
   h2 {
@@ -90,11 +88,13 @@ section {
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  body {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */ 
-  *{font-size: 1.5rem;}
   .social-icons i {font-size: 3rem;}
   .social-logos i {font-size: 3.0rem;}
 }
