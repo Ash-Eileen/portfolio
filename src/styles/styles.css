@@ -46,6 +46,7 @@
 #skills #skill-icons {
   font-size: 5rem;
   width: 75%;
+  color: #8A0039;
 }
 
 #blog img {
@@ -170,6 +171,82 @@ footer {
   font-size: 3rem;
   padding: 1%;
   color: #8A0039;
+}
+
+.social-icons i:hover {
+  color: hotpink;
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+}
+
+@-webkit-keyframes shake {
+  10% {
+    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+  }
+  15% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+  }
+  45% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+  }
+  75% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  90% {
+    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@keyframes shake {
+  10% {
+    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+  }
+  15% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+  }
+  45% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
+  }
+  75% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
+  90% {
+    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
+  }
+  100% {
+    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
+  }
 }
 
 header {
@@ -315,41 +392,6 @@ input:checked + .menu {
   color: hotpink;
   -webkit-animation: shake 0.5s;
           animation: shake 0.5s;
-}
-
-@-webkit-keyframes shake {
-  10% {
-    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
-            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
-  }
-  15% {
-    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-  }
-  30% {
-    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
-            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
-  }
-  45% {
-    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-  }
-  60% {
-    -webkit-transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
-            transform: scale(1.2) translate(0px, -5px) rotate(-5deg);
-  }
-  75% {
-    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-  }
-  90% {
-    -webkit-transform: scale(1.2) translate(5px, -5px) rotate(5deg);
-            transform: scale(1.2) translate(5px, -5px) rotate(5deg);
-  }
-  100% {
-    -webkit-transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-            transform: scale(1.2) translate(0px, 0px) rotate(0deg);
-  }
 }
 
 @keyframes shake {
