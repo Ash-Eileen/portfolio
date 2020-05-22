@@ -1,5 +1,19 @@
 // Setting up for about scss
 
+.about {
+  img {
+    align-self: center;
+    padding-bottom: 5%;
+    max-width: 50%;
+    border-radius: 50%;
+  }
+  #resume {
+    &:hover {
+      text-decoration: underline overline;
+    }
+  }
+}
+
 #history {
   display: flex;
   flex-direction: column;

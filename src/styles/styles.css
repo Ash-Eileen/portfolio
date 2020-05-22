@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap");
+.about img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-bottom: 5%;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+.about #resume:hover {
+  text-decoration: underline overline;
+}
+
 #history {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +46,14 @@
 #skills #skill-icons {
   font-size: 5rem;
   width: 75%;
+}
+
+#blog img {
+  max-width: 80vw;
+}
+
+#blog .entry {
+  padding-bottom: 5%;
 }
 
 @media only screen and (min-width: 1008px) {
@@ -390,6 +411,15 @@ input:checked + .menu {
   }
 }
 
+#portfolio img {
+  max-height: 342px;
+  max-width: 80vw;
+}
+
+#portfolio a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 1008px) {
   #portfolio {
     display: -webkit-box;
@@ -402,10 +432,10 @@ input:checked + .menu {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .title {
+  #portfolio .title {
     width: 100%;
   }
-  .project {
+  #portfolio .project {
     width: 50%;
   }
 }
@@ -465,15 +495,6 @@ main {
 
 section {
   padding: 5%;
-}
-
-section img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-bottom: 5%;
-  max-width: 50%;
-  border-radius: 50%;
 }
 
 section h2 {
