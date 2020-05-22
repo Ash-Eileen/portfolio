@@ -35,6 +35,45 @@
   width: 75%;
 }
 
+@media only screen and (min-width: 1008px) {
+  #blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog img {
+    width: 30%;
+  }
+  #blog .entry {
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #blog .reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #blog .title {
+    width: 100%;
+  }
+}
+
 #contact section {
   max-width: 80%;
 }
@@ -348,6 +387,26 @@ input:checked + .menu {
   }
   #index .desktop-home {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  #portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .title {
+    width: 100%;
+  }
+  .project {
+    width: 50%;
   }
 }
 
