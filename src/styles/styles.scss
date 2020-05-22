@@ -86,15 +86,52 @@ section {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 640px) {
   /* For tablets: */
-  body {
-    font-size: 20px;
+    /* For desktop: */ 
+    body {
+      font-size: 18px;
+    }
+    #index {
+      h1 , .social-logos {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+    }
+  #skills {
+    width: 70%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1008px) {
   /* For desktop: */ 
-  .social-icons i {font-size: 3rem;}
-  .social-logos i {font-size: 3.0rem;}
+  body {
+    font-size: 20px;
+  }
+  #index {
+    h1 , .social-logos {
+      font-size: 4.5rem;
+      line-height: 5rem;
+    }
+  }
+  #history {
+    flex-direction: row;
+    flex-wrap: wrap;
+    img, #profile {
+      width: 30%;
+    }
+    .info {
+      padding-left: 10%;
+      width: 70%;
+    }
+  } 
+  #interests {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    .info {
+      padding-right: 10%;
+      width: 70%;
+    }
+  }
 }
