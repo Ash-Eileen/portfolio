@@ -108,16 +108,22 @@ section {
   body {
     font-size: 20px;
   }
+  .title {
+    margin-top: 2%;
+  }
   #index {
     h1 , .social-logos {
       font-size: 4.5rem;
       line-height: 5rem;
     }
   }
+  #skills {
+    width: 100%;
+  }
   #history {
     flex-direction: row;
     flex-wrap: wrap;
-    img, #profile {
+    #profile {
       width: 30%;
     }
     .info {
@@ -130,8 +136,11 @@ section {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     .info {
-      padding-right: 10%;
+      // padding-right: 10%;
       width: 70%;
+    }
+    img {
+      width: 30%;
     }
   }
 }

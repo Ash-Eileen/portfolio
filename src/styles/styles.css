@@ -505,9 +505,15 @@ section h1 {
   body {
     font-size: 20px;
   }
+  .title {
+    margin-top: 2%;
+  }
   #index h1, #index .social-logos {
     font-size: 4.5rem;
     line-height: 5rem;
+  }
+  #skills {
+    width: 100%;
   }
   #history {
     -webkit-box-orient: horizontal;
@@ -517,7 +523,7 @@ section h1 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #history img, #history #profile {
+  #history #profile {
     width: 30%;
   }
   #history .info {
@@ -536,8 +542,10 @@ section h1 {
         flex-wrap: wrap;
   }
   #interests .info {
-    padding-right: 10%;
     width: 70%;
+  }
+  #interests img {
+    width: 30%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
