@@ -1,4 +1,4 @@
-// Styling for main section of about.html
+// Styling for main section of about.html 
 
 .about {
   img {
@@ -31,5 +31,41 @@
     font-size: 5rem;
     width: 75%;
     color: $icon-colour;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  /* For tablets: */
+  #skills {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  /* For desktop: */ 
+  #skills {
+    width: 100%;
+  }
+  #history {
+    flex-direction: row;
+    flex-wrap: wrap;
+    #profile {
+      width: 30%;
+    }
+    .info {
+      padding-left: 10%;
+      width: 70%;
+    }
+  } 
+  #interests {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    .info {
+      width: 70%;
+    }
+    img {
+      width: 30%;
+    }
   }
 }

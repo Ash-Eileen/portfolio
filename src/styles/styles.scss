@@ -1,3 +1,5 @@
+// Shared styling on all pages
+
 @import "partials/variables";
 @import "partials/about";
 @import "partials/blog";
@@ -9,6 +11,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap');
 
+
+// Global reset for all elements and a tags and setting font
+
 * {
   margin: 0;
   padding: 0;
@@ -16,20 +21,25 @@
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;  
+  color: inherit;
+}
+
+// Font for headings
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
-
 }
+
+// Background styling
 
 body {
   color: $text-colour;
   background: $main-background;
 }
 
-a {
-  text-decoration: none;  
-  color: inherit;
-}
+// Grid set up for all pages
 
 .container {
   width: 100vw;
@@ -49,6 +59,8 @@ main {
   justify-content: center;
 }
 
+// Padding and font-size selections as defaults on sections
+
 section {
   padding: 5%;
   h2 {
@@ -61,23 +73,20 @@ section {
 }
 
 @media only screen and (min-width: 640px) {
-  /* For tablets: */
+  /* For tablets: Updates to font-size and line-heights */
     body {
       font-size: 18px;
     }
     #index {
-      h1 , .social-logos {
+      h1, .social-logos {
         font-size: 4rem;
         line-height: 5rem;
       }
     }
-  #skills {
-    width: 70%;
-  }
-}
+} 
 
 @media only screen and (min-width: 1008px) {
-  /* For desktop: */ 
+  /* For desktop: Updates to font-size, margins and line-heights */ 
   body {
     font-size: 20px;
   }
@@ -88,31 +97,6 @@ section {
     h1 , .social-logos {
       font-size: 4.5rem;
       line-height: 5rem;
-    }
-  }
-  #skills {
-    width: 100%;
-  }
-  #history {
-    flex-direction: row;
-    flex-wrap: wrap;
-    #profile {
-      width: 30%;
-    }
-    .info {
-      padding-left: 10%;
-      width: 70%;
-    }
-  } 
-  #interests {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    .info {
-      width: 70%;
-    }
-    img {
-      width: 30%;
     }
   }
 }

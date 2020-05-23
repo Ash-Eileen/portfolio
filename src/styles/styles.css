@@ -49,6 +49,52 @@
   color: #8A0039;
 }
 
+@media only screen and (min-width: 640px) {
+  /* For tablets: */
+  #skills {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  /* For desktop: */
+  #skills {
+    width: 100%;
+  }
+  #history {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #history #profile {
+    width: 30%;
+  }
+  #history .info {
+    padding-left: 10%;
+    width: 70%;
+  }
+  #interests {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #interests .info {
+    width: 70%;
+  }
+  #interests img {
+    width: 30%;
+  }
+}
+
 #blog img {
   max-width: 80vw;
 }
@@ -67,6 +113,7 @@
 }
 
 @media only screen and (min-width: 1008px) {
+  /* For desktop: */
   #blog {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -503,6 +550,11 @@ input:checked + .menu {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -510,11 +562,6 @@ h1, h2, h3 {
 body {
   color: #1F1F1F;
   background: linear-gradient(135deg, rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1)) fixed;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .container {
@@ -562,7 +609,7 @@ section h1 {
 }
 
 @media only screen and (min-width: 640px) {
-  /* For tablets: */
+  /* For tablets: Updates to font-size and line-heights */
   body {
     font-size: 18px;
   }
@@ -570,13 +617,10 @@ section h1 {
     font-size: 4rem;
     line-height: 5rem;
   }
-  #skills {
-    width: 70%;
-  }
 }
 
 @media only screen and (min-width: 1008px) {
-  /* For desktop: */
+  /* For desktop: Updates to font-size, margins and line-heights */
   body {
     font-size: 20px;
   }
@@ -586,41 +630,6 @@ section h1 {
   #index h1, #index .social-logos {
     font-size: 4.5rem;
     line-height: 5rem;
-  }
-  #skills {
-    width: 100%;
-  }
-  #history {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  #history #profile {
-    width: 30%;
-  }
-  #history .info {
-    padding-left: 10%;
-    width: 70%;
-  }
-  #interests {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  #interests .info {
-    width: 70%;
-  }
-  #interests img {
-    width: 30%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
