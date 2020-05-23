@@ -10,7 +10,7 @@
 }
 
 .about .info {
-  background: #F7F7F7;
+  background: #D4E9FC;
   border-radius: 10px;
   padding: 2%;
 }
@@ -52,7 +52,7 @@
 #skills #skill-icons {
   font-size: 5rem;
   width: 75%;
-  color: #B1394F;
+  color: #FB9393;
 }
 
 @media only screen and (min-width: 640px) {
@@ -106,7 +106,7 @@
 }
 
 #blog .entry {
-  background: #F7F7F7;
+  background: #D4E9FC;
   border-radius: 10px;
   padding: 5% 0;
   border: 2px solid black;
@@ -163,7 +163,7 @@
 
 #contact section {
   max-width: 80%;
-  background: #F7F7F7;
+  background: #D4E9FC;
   border-radius: 10px;
   margin: 2%;
 }
@@ -220,7 +220,7 @@
 }
 
 footer {
-  background: #F7F7F7;
+  background: #D4E9FC;
   grid-column: span 12;
   min-height: 20vh;
   text-align: center;
@@ -240,7 +240,7 @@ footer {
 .social-icons {
   font-size: 3rem;
   padding: 1%;
-  color: #B1394F;
+  color: #FB9393;
 }
 
 .social-icons i:hover {
@@ -320,7 +320,7 @@ footer {
 }
 
 header {
-  background: #F7F7F7;
+  background: #D4E9FC;
   grid-column: span 12;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,7 +374,7 @@ header nav #hamburger {
 }
 
 .menu i {
-  color: #B1394F;
+  color: #FB9393;
 }
 
 input:checked + .menu {
@@ -424,6 +424,9 @@ input:checked + .menu {
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3)) fixed;
     border: 2px groove grey;
   }
+  .menu a:hover i {
+    color: #3A8C7D;
+  }
   .menu a i {
     padding: 1%;
   }
@@ -443,7 +446,7 @@ input:checked + .menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #F7F7F7;
+  background: #D4E9FC;
   border-radius: 5px;
 }
 
@@ -459,7 +462,7 @@ input:checked + .menu {
 
 #index .social-logos {
   font-size: 3rem;
-  color: #B1394F;
+  color: #FB9393;
   padding: 2%;
 }
 
@@ -538,7 +541,7 @@ input:checked + .menu {
 }
 
 #portfolio .project {
-  background: #F7F7F7;
+  background: #D4E9FC;
   border-radius: 5px;
   margin: 2%;
 }
@@ -581,11 +584,11 @@ a {
 
 body {
   color: #1f1f1f;
-  background: white;
+  background: #F5F5F5;
 }
 
 h1, h2, h3 {
-  color: #403F3C;
+  color: #022859;
   font-family: 'Open Sans', sans-serif;
 }
 
