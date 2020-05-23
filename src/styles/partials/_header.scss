@@ -76,6 +76,9 @@ input:checked + .menu {
       &:hover {
         background: $desktop-menu-hover;        
         border: 2px groove $desktop-menu-border-hover;
+        i {
+          color: $icon-hover;
+        }
       }
       i {
         padding: 1%;

@@ -46,7 +46,7 @@
 #skills #skill-icons {
   font-size: 5rem;
   width: 75%;
-  color: purple;
+  color: #B6BFC8;
 }
 
 @media only screen and (min-width: 640px) {
@@ -101,11 +101,11 @@
 
 #blog .entry {
   padding: 5% 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 #blog #blog-one {
-  border-top: 2px solid black;
+  border-top: 2px solid white;
 }
 
 #blog .blog-text {
@@ -198,7 +198,7 @@
   font-size: inherit;
   min-height: 2rem;
   font-weight: bold;
-  background: linear-gradient(135deg, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background: #B0C4DE;
   border-radius: 5px;
 }
 
@@ -227,11 +227,11 @@ footer {
 .social-icons {
   font-size: 3rem;
   padding: 1%;
-  color: purple;
+  color: #B6BFC8;
 }
 
 .social-icons i:hover {
-  color: hotpink;
+  color: #B0C4DE;
   -webkit-animation: shake 0.5s;
           animation: shake 0.5s;
 }
@@ -346,7 +346,7 @@ header nav #hamburger {
   overflow: hidden;
   -webkit-transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
           transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
-  background: linear-gradient(135deg, #FA8072, #98FB98, #B0E0E6);
+  background: #404040;
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
   -webkit-transition: 0.2s;
@@ -360,7 +360,7 @@ header nav #hamburger {
 }
 
 .menu i {
-  color: purple;
+  color: #B6BFC8;
 }
 
 input:checked + .menu {
@@ -405,8 +405,11 @@ input:checked + .menu {
     border: none;
   }
   .menu a:hover {
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3)) fixed;
+    background: #404040;
     border: 2px groove grey;
+  }
+  .menu a:hover i {
+    color: #B0C4DE;
   }
   .menu a i {
     padding: 1%;
@@ -441,12 +444,12 @@ input:checked + .menu {
 
 #index .social-logos {
   font-size: 3rem;
-  color: purple;
+  color: #B6BFC8;
   padding: 2%;
 }
 
 #index .social-logos i:hover {
-  color: hotpink;
+  color: #B0C4DE;
   -webkit-animation: shake 0.5s;
           animation: shake 0.5s;
 }
@@ -560,8 +563,8 @@ h1, h2, h3 {
 }
 
 body {
-  color: #1F1F1F;
-  background: linear-gradient(135deg, rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1)) fixed;
+  color: #F0F8FF;
+  background: linear-gradient(135deg, #000000, #303030) fixed;
 }
 
 .container {
