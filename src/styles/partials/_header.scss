@@ -1,6 +1,7 @@
 // Styling for header on all pages
 
 header {
+  background: $box-colour;
   grid-column: span 12;
   display: flex;
   flex-direction: column;
@@ -67,12 +68,12 @@ input:checked + .menu {
     transform: none;
     background: inherit;
     display: flex;
+    align-items: center;
     a {
       font-size: 2rem;
       padding: 1%;
       display: block;
       width: 100%;
-      border: none;
       &:hover {
         background: $desktop-menu-hover;        
         border: 2px groove $desktop-menu-border-hover;

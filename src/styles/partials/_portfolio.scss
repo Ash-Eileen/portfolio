@@ -11,6 +11,11 @@
       text-decoration: underline;
     }
   }
+  .project {
+    background: $box-colour;
+    border-radius: 5px;
+    margin: 2%;
+  }
 }
 
 @media only screen and (min-width: 1008px) {
@@ -23,7 +28,7 @@
           width: 100%;
       }   
       .project {
-          width: 50%;
+          width: 45%;
       }
     }
 }

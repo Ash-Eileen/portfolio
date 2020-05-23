@@ -1,6 +1,7 @@
 // Styling for footer on all pages
 
 footer {
+  background: $box-colour;
   grid-column: span 12;
   min-height: 20vh;
   text-align: center;

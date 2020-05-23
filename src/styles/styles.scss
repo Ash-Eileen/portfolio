@@ -26,17 +26,18 @@ a {
   color: inherit;
 }
 
-// Font for headings
-
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
 // Background styling
 
 body {
   color: $text-colour;
   background: $main-background;
+}
+
+// Font for headings
+
+h1, h2, h3 {
+  color: $heading-colour;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Grid set up for all pages
@@ -62,7 +63,7 @@ main {
 // Padding and font-size selections as defaults on sections
 
 section {
-  padding: 5%;
+  padding: 3%;
   h2 {
     padding-bottom: 5%;
     font-size: 1.8rem;
@@ -70,6 +71,10 @@ section {
   h1 {
     font-size: 2.5rem;
   }
+}
+
+.title {
+  margin: 2%;
 }
 
 @media only screen and (min-width: 640px) {

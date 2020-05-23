@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    background: $box-colour;
+    border-radius: 5px;
   }
   .tablet-home, .desktop-home {
     display: none;
@@ -18,7 +19,6 @@
     font-size: 3rem;   
     font-family: 'PT Mono', monospace;
     line-height: 4rem;
-
   }
   .social-logos {
     font-size: 3rem;

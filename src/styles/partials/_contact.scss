@@ -3,6 +3,9 @@
 #contact {
     section {
         max-width: 80%;
+        background: $box-colour;
+        border-radius: 10px;
+        margin: 2%;
     }
     form {
         display: flex;
