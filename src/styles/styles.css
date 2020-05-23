@@ -54,13 +54,16 @@
 }
 
 #blog .entry {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5% 0;
   border-bottom: 2px solid black;
 }
 
 #blog #blog-one {
   border-top: 2px solid black;
+}
+
+#blog .blog-text {
+  padding: 0 1%;
 }
 
 @media only screen and (min-width: 1008px) {
@@ -480,6 +483,9 @@ input:checked + .menu {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #portfolio .title {
     width: 100%;
