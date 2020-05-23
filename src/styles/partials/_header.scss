@@ -1,5 +1,6 @@
 // Setting up for header scss
 
+
 header {
   grid-column: span 12;
   display: flex;
@@ -7,70 +8,39 @@ header {
   align-items: flex-end;
   height: 10vh;
   z-index: 2;
-
-  // color: #AE0A3B;
-  // color: #A12B50;
-  // color: #BDE5C1;
-  // background: #9D2A4E;
-  // color: #481E38;
-  // color: #FFFFFF;
-  // background: #B40817;
-  // background: grey;
-  // color: #8DB3E2;
-  // color: #405949;
-  // background: #454545;
-  // background: #f7f7f7;
-} 
-
-nav {
-  text-align: right;
-  width: 100%;
-  line-height: 4rem;
-  font-size: 2.5rem;
-} 
-
-.menu-icon {
-  font-size: 3rem;
-  padding: 1%;
-  padding-right: 3%;
+  nav {
+    text-align: right;
+    width: 100%;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    .menu-icon {
+      font-size: 3rem;
+      padding: 1%;
+      padding-right: 3%;
+    }
+    #hamburger {
+      display: none;
+    }
+  } 
 }
 
 .menu {
-  // border: 4px solid #DB9CB8;
-  // border: 4px solid #F2D4E2;
-  border: 2px solid #30546E;
+  border: 2px solid $menu-border-mobile;
   border-top: none;
   max-height:0;
   overflow: hidden;
   transform: perspective(2rem) rotate3d(1,0,0, -90deg);
-  background: pink;
+  background: $menu-colour-mobile;
   transform-origin: 100% 0;
   transition: 0.2s;
-  // background: white;
-}
-
-#hamburger {
-  display: none;
-  
-}
-
-.menu a {
-  // background: #A50925;
-
+  a {
   display: block;
-  // border-top: 4px solid #DB9CB8;
-  // border-top: 4px solid #F2D4E2;
-  border-top: 2px solid #30546E;
-
-  // background: rgba(236,183,169,1) ;
+  border-top: 2px solid $menu-border-mobile;
   text-align: center;
-}
-
-.menu i {
-  // color: #DB9CB8;
-  // color: #F2D4E2;
-  // color: #30546E;
-  color: #8A0039;
+  }
+  i {
+  color: $icon-colour;
+  }
 }
 
 input:checked + .menu {
@@ -80,6 +50,7 @@ input:checked + .menu {
   max-height:1000px;
   transform: perspective(4rem) rotate3d(0,0,0,0);
 }
+
 
 @media only screen and (min-width: 1008px) {
   /* For desktop: */ 
@@ -97,7 +68,6 @@ input:checked + .menu {
     transform: none;
     background: inherit;
     display: flex;
-    // background: #f7f7f7;
     a {
       font-size: 2rem;
       padding: 1%;
@@ -105,10 +75,8 @@ input:checked + .menu {
       width: 100%;
       border: none;
       &:hover {
-        // background: pink;
-        background: linear-gradient(135deg, rgba(255,0,0,0.3),rgba(0,255,0,.3),rgba(0,0,255,0.3)) fixed;
-
-        border: 2px groove grey;
+        background: $desktop-menu-hover;        
+        border: 2px groove $desktop-menu-border-hover;
       }
       i {
         padding: 1%;

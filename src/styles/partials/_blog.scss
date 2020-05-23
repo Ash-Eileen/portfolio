@@ -5,7 +5,12 @@
     max-width: 80vw;
   }
   .entry {
+    padding-top: 5%;
     padding-bottom: 5%;
+    border-bottom: 2px solid black;
+  }
+  #blog-one {
+    border-top: 2px solid black;
   }
 }
 

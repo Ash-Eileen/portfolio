@@ -19,7 +19,6 @@
             textarea {
                 height: 3rem;
                 resize: vertical;
-
             }
             #submit {
                 align-self: center;
@@ -28,7 +27,7 @@
 
                 min-height: 2rem;
                 font-weight: bold;
-                background: linear-gradient(135deg, rgba(255,0,0,0.5),rgba(0,255,0,0.5),rgba(0,0,255,0.5));
+                background: $submit-button;
                 border-radius: 5px;
                 &:hover {
                     transform: scale(1.2);

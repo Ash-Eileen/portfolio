@@ -4,9 +4,6 @@
   section {
     min-width: 35%;
     height: 80%;
-    // background: #454545;
-    // background: #f7f7f7;
-    // background: #F2F2F2;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -19,23 +16,17 @@
 
   h1 {
     font-size: 3rem;   
-    // font-family: 'Indie Flower', cursive;
     font-family: 'PT Mono', monospace;
-      line-height: 4rem;
-    // color: #CFDDF2;
-    // color: #405949;
+    line-height: 4rem;
+
   }
   .social-logos {
     font-size: 3rem;
-    //  color: #481E38;
-    // color: #8DB3E2;
-    // color: #30546E;
-    color: #8A0039;
+    color:$icon-colour;
     padding: 2%;
     i { 
     &:hover {
-      color: hotpink;
-      // transform: scale(1.5);
+      color: $icon-hover;
       animation: shake 0.5s;
     }
     @keyframes shake {
@@ -49,8 +40,7 @@
       100% { transform: scale(1.2) translate(0px, 0px) rotate(0deg); }
     }
   }
-  }
-
+}
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   /* For tablets: */
