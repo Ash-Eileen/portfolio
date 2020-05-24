@@ -235,6 +235,7 @@
 #contact form .message #submit:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  color: #E87878;
 }
 
 footer {
