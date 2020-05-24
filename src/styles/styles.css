@@ -531,7 +531,7 @@ input:checked + .menu {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
   #index {
     /* For tablets: */
   }
