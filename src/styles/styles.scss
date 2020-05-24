@@ -8,7 +8,6 @@
 @import "partials/header";
 @import "partials/index";
 @import "partials/portfolio";
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap');
 
 
@@ -80,7 +79,8 @@ section {
 .title {
   margin: 2%;
   color: $title;
-}
+  font-family: 'PT Mono', monospace;
+ }
 
 @media only screen and (min-width: 640px) {
   /* For tablets: Updates to font-size and line-heights */
