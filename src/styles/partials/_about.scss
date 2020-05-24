@@ -15,6 +15,7 @@
   }
   #resume {
     color: $main-background;
+    text-decoration: underline;
     &:hover {
       color: $icon-colour;
       text-decoration: underline overline;

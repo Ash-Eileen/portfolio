@@ -20,6 +20,7 @@
 
 .about #resume {
   color: #010326;
+  text-decoration: underline;
 }
 
 .about #resume:hover {
@@ -571,7 +572,7 @@ input:checked + .menu {
   width: 90vw;
 }
 
-#portfolio .github {
+#portfolio .portfolio-icon {
   color: white;
 }
 
