@@ -15,7 +15,12 @@
   padding: 2%;
 }
 
+.about #resume {
+  color: #010326;
+}
+
 .about #resume:hover {
+  color: #E87878;
   text-decoration: underline overline;
 }
 

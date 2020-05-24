@@ -13,7 +13,9 @@
     padding: 2%;
   }
   #resume {
+    color: $main-background;
     &:hover {
+      color: $icon-colour;
       text-decoration: underline overline;
     }
   }
