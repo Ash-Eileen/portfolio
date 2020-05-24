@@ -27,6 +27,8 @@
       flex-wrap: wrap;
       img {
           align-self: center;
+          width: 30%;
+          flex-shrink: 0;
         }
       .entry {
           padding: 2%;
