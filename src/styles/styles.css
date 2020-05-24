@@ -61,7 +61,7 @@
   background: #010326;
   padding: 1%;
   border-radius: 10px;
-  width: 70%;
+  max-width: 70%;
 }
 
 #skills .skill-container #skill-icons {
