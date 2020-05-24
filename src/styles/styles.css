@@ -10,6 +10,9 @@
 }
 
 .about .info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   background: #010326;
   border-radius: 10px;
   padding: 2%;
