@@ -32,10 +32,15 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  #skill-icons {
-    font-size: 5rem;
-    width: 75%;
-    color: $icon-colour;
+  .skill-container {
+    background: $box-colour;
+    padding: 1%;
+    border-radius: 10px;
+    width: 70%;
+    #skill-icons {
+      font-size: 5rem;
+      color: $icon-colour;
+    }
   }
 }
 

@@ -26,11 +26,12 @@ header {
 
 .menu {
   border: 2px solid $menu-border-mobile;
+  color: $text-colour;
+  background: $menu-colour-mobile;
   border-top: none;
   max-height:0;
   overflow: hidden;
   transform: perspective(2rem) rotate3d(1,0,0, -90deg);
-  background: $menu-colour-mobile;
   transform-origin: 100% 0;
   transition: 0.2s;
   a {
@@ -74,9 +75,10 @@ input:checked + .menu {
       padding: 1%;
       display: block;
       width: 100%;
+      border: inherit;
       &:hover {
-        background: $desktop-menu-hover;        
-        border: 2px groove $desktop-menu-border-hover;
+        // background: $desktop-menu-hover;        
+        border: 5px solid $text-colour;
         i {
           color: $icon-hover;
         }

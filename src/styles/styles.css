@@ -10,7 +10,7 @@
 }
 
 .about .info {
-  background: #D4E9FC;
+  background: #010326;
   border-radius: 10px;
   padding: 2%;
 }
@@ -49,10 +49,16 @@
           align-items: center;
 }
 
-#skills #skill-icons {
+#skills .skill-container {
+  background: #010326;
+  padding: 1%;
+  border-radius: 10px;
+  width: 70%;
+}
+
+#skills .skill-container #skill-icons {
   font-size: 5rem;
-  width: 75%;
-  color: #FB9393;
+  color: #E87878;
 }
 
 @media only screen and (min-width: 640px) {
@@ -106,7 +112,7 @@
 }
 
 #blog .entry {
-  background: #D4E9FC;
+  background: #010326;
   border-radius: 10px;
   padding: 5% 0;
   border: 2px solid black;
@@ -163,7 +169,7 @@
 
 #contact section {
   max-width: 80%;
-  background: #D4E9FC;
+  background: #010326;
   border-radius: 10px;
   margin: 2%;
 }
@@ -208,9 +214,11 @@
       align-self: center;
   width: 50%;
   font-size: inherit;
+  margin: 2%;
+  color: #010326;
   min-height: 2rem;
   font-weight: bold;
-  background: linear-gradient(135deg, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background: #3A8C7D;
   border-radius: 5px;
 }
 
@@ -220,7 +228,7 @@
 }
 
 footer {
-  background: #D4E9FC;
+  background: #010326;
   grid-column: span 12;
   min-height: 20vh;
   text-align: center;
@@ -240,7 +248,7 @@ footer {
 .social-icons {
   font-size: 3rem;
   padding: 1%;
-  color: #FB9393;
+  color: #E87878;
 }
 
 .social-icons i:hover {
@@ -320,7 +328,7 @@ footer {
 }
 
 header {
-  background: #D4E9FC;
+  background: #010326;
   grid-column: span 12;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,13 +362,14 @@ header nav #hamburger {
 }
 
 .menu {
-  border: 2px solid #30546E;
+  border: 2px solid #D8D9D7;
+  color: #D8D9D7;
+  background: #101010;
   border-top: none;
   max-height: 0;
   overflow: hidden;
   -webkit-transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
           transform: perspective(2rem) rotate3d(1, 0, 0, -90deg);
-  background: linear-gradient(135deg, #FA8072, #98FB98, #B0E0E6);
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
   -webkit-transition: 0.2s;
@@ -369,12 +378,12 @@ header nav #hamburger {
 
 .menu a {
   display: block;
-  border-top: 2px solid #30546E;
+  border-top: 2px solid #D8D9D7;
   text-align: center;
 }
 
 .menu i {
-  color: #FB9393;
+  color: #E87878;
 }
 
 input:checked + .menu {
@@ -419,10 +428,10 @@ input:checked + .menu {
     padding: 1%;
     display: block;
     width: 100%;
+    border: inherit;
   }
   .menu a:hover {
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3)) fixed;
-    border: 2px groove grey;
+    border: 5px solid #D8D9D7;
   }
   .menu a:hover i {
     color: #3A8C7D;
@@ -430,6 +439,10 @@ input:checked + .menu {
   .menu a i {
     padding: 1%;
   }
+}
+
+#index {
+  background: #010326;
 }
 
 #index section {
@@ -446,7 +459,7 @@ input:checked + .menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #D4E9FC;
+  background: inherit;
   border-radius: 5px;
 }
 
@@ -455,6 +468,7 @@ input:checked + .menu {
 }
 
 #index h1 {
+  color: #D8D9D7;
   font-size: 3rem;
   font-family: 'PT Mono', monospace;
   line-height: 4rem;
@@ -462,7 +476,7 @@ input:checked + .menu {
 
 #index .social-logos {
   font-size: 3rem;
-  color: #FB9393;
+  color: #E87878;
   padding: 2%;
 }
 
@@ -536,14 +550,14 @@ input:checked + .menu {
   max-width: 80vw;
 }
 
-#portfolio a:hover {
-  text-decoration: underline;
-}
-
 #portfolio .project {
-  background: #D4E9FC;
+  background: #010326;
   border-radius: 5px;
   margin: 2%;
+}
+
+#portfolio .github {
+  color: white;
 }
 
 @media only screen and (min-width: 1008px) {
@@ -582,13 +596,17 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #E87878;
+}
+
 body {
-  color: #1f1f1f;
-  background: #F5F5F5;
+  color: #D8D9D7;
+  background: #010326;
 }
 
 h1, h2, h3 {
-  color: #022859;
+  color: #64BEAE;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -605,6 +623,7 @@ h1, h2, h3 {
 }
 
 main {
+  background: #D8D9D7;
   z-index: 1;
   grid-column: span 12;
   display: -webkit-box;
@@ -638,6 +657,7 @@ section h1 {
 
 .title {
   margin: 2%;
+  color: #1E433D;
 }
 
 @media only screen and (min-width: 640px) {

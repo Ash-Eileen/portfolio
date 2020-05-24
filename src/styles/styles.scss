@@ -24,6 +24,9 @@
 a {
   text-decoration: none;  
   color: inherit;
+  &:hover {
+    color: $a-hover;
+  }
 }
 
 // Background styling
@@ -51,6 +54,7 @@ h1, h2, h3 {
 }
 
 main {
+  background: $main-color;
   z-index: 1;
   grid-column: span 12;
   display: flex;
@@ -75,6 +79,7 @@ section {
 
 .title {
   margin: 2%;
+  color: $title;
 }
 
 @media only screen and (min-width: 640px) {

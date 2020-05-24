@@ -1,6 +1,7 @@
 // Styling for main section of index.html
 
 #index {
+  background: $box-colour;
   section {
     min-width: 35%;
     height: 80%;
@@ -8,14 +9,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: $box-colour;
+    background: inherit;
     border-radius: 5px;
   }
   .tablet-home, .desktop-home {
     display: none;
   }
-
   h1 {
+    color: $text-colour;
     font-size: 3rem;   
     font-family: 'PT Mono', monospace;
     line-height: 4rem;
