@@ -146,10 +146,12 @@
         flex-wrap: wrap;
   }
   #blog img {
-    width: 30%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    width: 30%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
   }
   #blog .entry {
     padding: 2%;
