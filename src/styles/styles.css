@@ -147,6 +147,9 @@
   }
   #blog img {
     width: 30%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   #blog .entry {
     padding: 2%;
