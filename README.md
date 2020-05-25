@@ -79,6 +79,18 @@ The tablet follows the same design as the mobile version of the site. The differ
 
 ![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/tablet/about.png)
 
+#### Desktop
+
+![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/index.png)
+
+![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/about.png)
+
+![Portfolio](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/portfolio.png)
+
+![Blog](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/blog.png)
+
+![Contact](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/contact.png)
+
 ### Target Audience
 
 The target audience for my portfolio site will eventually be potential employers. Right now the target audience is my educators and peers as its an assessment.
