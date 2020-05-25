@@ -3,9 +3,6 @@
 header {
   background: $box-colour;
   grid-column: span 12;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   height: 10vh;
   z-index: 2;
   nav {
@@ -66,19 +63,38 @@ input:checked + .menu {
     width: 100%;
     height: 100%;
     line-height: 1rem;
-    .menu-icon {
-      display: none !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
+  .menu-icon {
+    width: 3vw;
+    height: 100%;
+    margin-left: 0.5%;
+    align-items: center;
+    #logo {
+      max-height: 50px;
+      &:hover {
+        background: $icon-hover;
+        border-radius: 10px;
+        animation: shake 0.8s;
+      }
+    }
+    label {
+      display: none;
     }
   }
   .menu {
     min-height: 10vh;
+    width: 96vw;
     border: none;
     transform: none;
     background: inherit;
     display: flex;
     align-items: center;
     a {
-      font-size: 2rem;
+      font-size: 1.9rem;
       padding: 1%;
       display: block;
       width: 100%;

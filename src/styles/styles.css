@@ -261,10 +261,6 @@ footer {
           align-items: center;
 }
 
-footer #logo {
-  display: none;
-}
-
 .social-icons {
   font-size: 3rem;
   padding: 1%;
@@ -360,26 +356,11 @@ footer #logo {
         -ms-flex-align: center;
             align-items: center;
   }
-  footer p #logo {
-    display: block;
-    max-height: 40px;
-    margin-left: 0.2%;
-  }
 }
 
 header {
   background: #010326;
   grid-column: span 12;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   height: 10vh;
   z-index: 2;
 }
@@ -465,12 +446,42 @@ input:checked + .menu {
     width: 100%;
     height: 100%;
     line-height: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
   }
-  nav .menu-icon {
-    display: none !important;
+  .menu-icon {
+    width: 3vw;
+    height: 100%;
+    margin-left: 0.5%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-icon #logo {
+    max-height: 50px;
+  }
+  .menu-icon #logo:hover {
+    background: #3A8C7D;
+    border-radius: 10px;
+    -webkit-animation: shake 0.8s;
+            animation: shake 0.8s;
+  }
+  .menu-icon label {
+    display: none;
   }
   .menu {
     min-height: 10vh;
+    width: 96vw;
     border: none;
     -webkit-transform: none;
             transform: none;
@@ -483,7 +494,7 @@ input:checked + .menu {
             align-items: center;
   }
   .menu a {
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 1%;
     display: block;
     width: 100%;
