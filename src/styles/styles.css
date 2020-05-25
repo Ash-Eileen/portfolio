@@ -378,7 +378,11 @@ header nav {
           flex-direction: column;
 }
 
-header nav .menu-icon {
+header nav #hamburger {
+  display: none;
+}
+
+.menu-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,11 +396,7 @@ header nav .menu-icon {
           justify-content: space-between;
 }
 
-header nav #hamburger {
-  display: none;
-}
-
-header nav #logo {
+#logo {
   max-height: 40px;
   padding-left: 3%;
 }
@@ -443,7 +443,7 @@ input:checked + .menu {
 @media only screen and (min-width: 1008px) {
   /* For desktop: */
   nav {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     line-height: 1rem;
     display: -webkit-box;
@@ -459,28 +459,29 @@ input:checked + .menu {
         -ms-flex-pack: stretch;
             justify-content: stretch;
   }
-  .menu-icon {
-    width: 3vw;
+  nav .menu-icon {
     height: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 1%;
   }
-  .menu-icon #logo {
+  nav .menu-icon #logo {
     max-height: 50px;
+    padding-left: 0;
   }
-  .menu-icon #logo:hover {
+  nav .menu-icon #logo:hover {
     background: #3A8C7D;
     border-radius: 10px;
     -webkit-animation: shake 0.8s;
             animation: shake 0.8s;
   }
-  .menu-icon label {
+  nav .menu-icon label {
     display: none;
   }
   .menu {
     min-height: 10vh;
-    width: 96vw;
+    width: 93.5vw;
     border: none;
     -webkit-transform: none;
             transform: none;
@@ -495,7 +496,6 @@ input:checked + .menu {
   .menu a {
     font-size: 1.9rem;
     padding: 1%;
-    display: block;
     width: 100%;
     border: inherit;
   }
@@ -700,7 +700,6 @@ h1, h2, h3 {
 }
 
 .container {
-  width: 100vw;
   height: 100vh;
   display: -ms-grid;
   display: grid;
