@@ -62,9 +62,13 @@ The contact page has a dummy contact form for users. It also provides my social 
 
 ![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/index.png)
 ![Menu Displayed](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/menu.png)
+
 ![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/about.png)
+
 ![Portfolio](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/portfolio.png)
+
 ![Blog](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/blog.png)
+
 ![Contact](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/contact.png)
 
 #### Tablet
@@ -72,6 +76,7 @@ The contact page has a dummy contact form for users. It also provides my social 
 The tablet follows the same design as the mobile version of the site. The differences are on the index/homepage where the text changes and on the about page where the amount of skill icons displayed is changed.
 
 ![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/tablet/index.png)
+
 ![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/tablet/about.png)
 
 ### Target Audience
