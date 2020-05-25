@@ -54,7 +54,7 @@ The contact page has a dummy contact form for users. It also provides my social 
 
 ### Sitemap
 
-![Site Map](https://github.com/Ash-Eileen/portfolio/blob/master/docs/Site%20Map.pdf)
+![Site Map](https://github.com/Ash-Eileen/portfolio/blob/master/docs/site-map.png)
 
 ### Screenshots
 
