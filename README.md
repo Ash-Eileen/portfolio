@@ -7,7 +7,7 @@
 ## Table of Contents
 
 * [Description](https://github.com/Ash-Eileen/portfolio#description)
-* [Software Development Plan](https://github.com/Ash-Eileen/portfolio#description)
+* [Description](https://github.com/Ash-Eileen/portfolio#description)
 * [Sitemap](https://github.com/Ash-Eileen/portfolio#sitemap)
 * [Screenshots](https://github.com/Ash-Eileen/portfolio#screenshots)
 * [Target Audience](https://github.com/Ash-Eileen/portfolio#target-audience)
