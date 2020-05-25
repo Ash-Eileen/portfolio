@@ -4,6 +4,15 @@
 
 [My repository](https://github.com/Ash-Eileen/portfolio)
 
+## Table of Contents
+
+* [Description](https://github.com/Ash-Eileen/portfolio#description)
+* [Software Development Plan](https://github.com/Ash-Eileen/portfolio#description)
+* [Sitemap](https://github.com/Ash-Eileen/portfolio#sitemap)
+* [Screenshots](https://github.com/Ash-Eileen/portfolio#screenshots)
+* [Target Audience](https://github.com/Ash-Eileen/portfolio#target-audience)
+* [Tech Stack](https://github.com/Ash-Eileen/portfolio#tech-stack)
+
 ## Description
 
 ### Purpose
@@ -52,13 +61,13 @@ Per the requirements of this assessment I have included a blog section with dumm
 
 The contact page has a dummy contact form for users. It also provides my social media links for twitter and linkedin which animate on hover. I also set the button to scale on hover so it made it a little bit more interesting.
 
-### Sitemap
+## Sitemap
 
 ![Site Map](https://github.com/Ash-Eileen/portfolio/blob/master/docs/site-map.png)
 
-### Screenshots
+## Screenshots
 
-#### Mobile
+### Mobile
 
 ![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/index.png)
 ![Menu Displayed](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/menu.png)
@@ -71,7 +80,7 @@ The contact page has a dummy contact form for users. It also provides my social 
 
 ![Contact](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/mobile/contact.png)
 
-#### Tablet
+### Tablet
 
 The tablet follows the same design as the mobile version of the site. The differences are on the index/homepage where the text changes and on the about page where the amount of skill icons displayed is changed.
 
@@ -79,9 +88,9 @@ The tablet follows the same design as the mobile version of the site. The differ
 
 ![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/tablet/about.png)
 
-#### Desktop
+### Desktop
 
-![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/index.png)
+![Index/Homepage](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/index.PNG)
 
 ![About](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/about.png)
 
@@ -91,7 +100,7 @@ The tablet follows the same design as the mobile version of the site. The differ
 
 ![Contact](https://github.com/Ash-Eileen/portfolio/blob/master/docs/screenshots/desktop/contact.png)
 
-### Target Audience
+## Target Audience
 
 The target audience for my portfolio site will eventually be potential employers. Right now the target audience is my educators and peers as its an assessment.
 
