@@ -1,13 +1,14 @@
 # **Welcome to My Portfolio** 👋
 
-[Live Website](https://ashleysmith.netlify.app/index.html)
+[Live Website](https://ashleysmith.netlify.app/)
 
 [My repository](https://github.com/Ash-Eileen/portfolio)
 
 ## Table of Contents
 
 * [Description](https://github.com/Ash-Eileen/portfolio#description)
-* [Description](https://github.com/Ash-Eileen/portfolio#description)
+* [Purpose](https://github.com/Ash-Eileen/portfolio#purpose)
+* [Functionality/Features](https://github.com/Ash-Eileen/portfolio#functionalityfeatures)
 * [Sitemap](https://github.com/Ash-Eileen/portfolio#sitemap)
 * [Screenshots](https://github.com/Ash-Eileen/portfolio#screenshots)
 * [Target Audience](https://github.com/Ash-Eileen/portfolio#target-audience)
