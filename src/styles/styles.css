@@ -677,7 +677,6 @@ input:checked + .menu {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Merriweather Sans', sans-serif;
 }
 
 a {
